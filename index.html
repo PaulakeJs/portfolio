@@ -1,105 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>paulakeJs-dev</title>
-  </head>
-  <body>
-    <div>
-      <header>
-        <div class="q1"><a href="./">
-          <h1>paulakeJs-dev</h1></a></div>
-        <div class="q2">
-          <ul>
-            <a href="./"> <li>About</li></a>
-            <a href="./projects/index.html"> <li>Projects</li></a>
-          </ul>
-        </div>
-      </header>
-      <div class="main">
-        <h3 class="intro">
-          Hello Guys Am Paul Dike (PaulakeJs) and i build things for the web
-        </h3>
-        <h3 class="intro">About Me</h3>
-        <p class="intro-2">
-          Am a seasoned full-stack web developer that has a passion for tech and
-          advancement in the web development space which include advance auth
-          systems more beautiful ui designs and mor efficent cloud systems am
-          also passionate for better cloud systems and better system designs
-        </p>
-      </div>
-      <div class="skills">
-        <h2 style="color: coral">Skills</h2>
-        <div class="skils">
-          <p>I Have a lot of web development skills which Include:</p>
-        </div>
-        <div class="jsd">
-          <div class="imgcontainer">
-            <div class="image">
-              <img src="./FB_IMG_17028958814936081.jpg" alt="" class="aimage" />
-            </div>
-            <div class="name">MongoDb</div>
-          </div>
-          <div class="imgcontainer">
-            <div class="image">
-              <img src="./FB_IMG_17028959251040191.jpg" alt="" class="aimage" />
-            </div>
-            <div class="name">ExpressJs</div>
-          </div>
-          <div class="imgcontainer">
-            <div class="image">
-              <img src="./FB_IMG_17028959854497101.jpg" alt="" class="aimage" />
-            </div>
-            <div class="name">ReactJs</div>
-          </div>
-          <div class="imgcontainer">
-            <div class="image">
-              <img src="./FB_IMG_17028960466332892.jpg" alt="" class="aimage" />
-            </div>
-            <div class="name">Nodejs</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <h3 class="intro">
-       Here are some of my projects for you 
-      </h3>
-      <h3 class="intro">My Projects Examples</h3>
-      <p class="intro-2">
-        due to some issues we are unable to fetch the project list from the database 
-        try again later 
-        thanks <br><br>
-        <a href="/projects/" style="color: gold;">View all -> </a>
-      </p>
-    </div>
-    <div class="intro we"><h1>Contact Me</h1></div>
-    <div class="contact-section">
-      <div class="contacts">
-        <div class="d">
-          <p>Email: developerpaulake@gmail.com</p>
-          <br />
-          <p>
-            Phone & Whatsapp : <a href="tel:+2349132971112">+2349132971112</a>
-          </p>
-          <br />
-          <p>
-            Facebook: <a href="https://facebook.com/paulakejs">paulake Js</a>
-          </p>
-          <br />
-          <p>x (twitter) : <a href="https://x.com/paulakejs">Paulake Js </a></p>
-          <br />
-          <p>
-            github : <a href="https://github.com/paulakejs">Paulakejs </a><br />
-          </p>
-        </div>
-      </div>
-      <div class="m-img">
-        <img src="./IMG_20231218_122355.jpg" class="aimage1" alt="" />
-      </div>
-    </div>
-    <footer><p class="int">A production Of paulakejs &copy; 2023</p></footer>
-  </body>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<title>Portfolio paulakeJs</title>
+	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+	<link rel="stylesheet" href="">
+	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
+	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+	<script src="bower_components/custombox/dist/custombox.min.js"></script>
+	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		
+
+		<section id="about">
+			<div class="row">
+				<div class="small-12 large-8 large-offset-2 columns text-center">
+					<div class="profile-photo" style="background-image: url(assets/images/profile.JPG);">
+					</div>
+					<div class="details">
+						<h2>Hi, I'm Paul. I...<br> <span id="writing-text"><span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 column">
+					<div class="cta text-center">
+						<a class="my-button cta-button expand form-button" href="mailto:developerpaulake@gmail.com">Get In Touch</a>
+					</div>
+				</div>
+				<div class="small-12 column">
+					<div class="my-arrow-div text-center">
+						<a href="https://github.com/cleverprogrammer"><i class="fa fa-github-alt fa-2x"></i></a>
+						<a href="https://instagram.com/cleverqazi"><i class="fa fa-instagram fa-2x"></i></a>
+						<a href="http://www.youtube.com/c/CleverProgrammer"><i class="fa fa-youtube fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="experience">
+
+			<div class="row column">
+				<div class="small-12">
+					<h2 class="text-center">My Experience</h2>
+					<p class="text-center tag-line">Specialist in need. Generalist at heart.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-laptop"></i>
+					<h3>Front-end</h3>
+					<ul>
+						<li>html(5)</li>
+						<li>css(3)</li>
+						<li>Javascript</li>
+					<li>ReactJS</li>
+					</ul>
+				</div>
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-database"></i>
+					<h3>Back-end</h3>
+					<ul>
+						<li>NodeJS</li>
+						<li>NPM</li>
+						<li>Express</li>
+						
+						<li>Mongodb</li>
+						<li>Restful Web Services</li>
+						
+					</ul>
+				</div>
+				<div class="small-12 medium-4 columns text-center experience-topics">
+					<i class="fi-star"></i>
+					<h3>Tools</h3>
+					<ul>
+						<li>VS Code</li>
+						<li>Atom || Webstorm</li>
+						<li>Github && Bitbucket</li>
+						<li>SSH</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="work">
+			<h2 class="text-center">Projects</h2>
+			<div class="row">
+				<p class="text-center tag-line">Here are few of some of my projects.</p>
+			</div>
+
+
+			<div class="row work-row"> <!-- odd -->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/project1.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Paylane-social-media (frontend)</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>responsive frontend of twitter</p>
+						<a class="my-button" target="_blank" href="http://paylane-s.onrender.com">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row work-row"> <!-- even -->
+				<div class="small-12 medium-6 columns">
+					<img src="assets/images/project2.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-offset-1 columns">
+					<div class="details details-ftm">
+						<h3>Paylane insurance (fronted)</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>paylane insurance website a frontend replica</p>
+						<a class="my-button" target="_blank" href="http://paylane-insurance.onrender.com.com">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row work-row"> <!-- odd -->
+				<div class="small-12 medium-6 medium-push-6 columns">
+					<img src="assets/images/project3.png" alt="">
+				</div>
+				<div class="small-12 medium-5 medium-pull-7 columns">
+					<div class="details details-ftm">
+						<h3>Paylane Cars(fronted)</h3>
+						<p class="platform">Web</p>
+						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
+						<p>Working on it</p>
+						<a class="my-button" target="_blank" href="http://google.com">Visit Website</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+		</section>
+
+		<section id="footer-cta">
+			<h2 class="text-center">Wanna work with me?</h2>
+			<p></p>
+			<div class="row text-center">
+				<div class="small-12 medium-8 medium-offset-2 columns">
+					<p class="text-center">I'm currently available for work.</p>
+				</div>
+				<div class="small-12 columns" id="startButtonDiv">
+					<p>Telephone & whatsapp <a href="tel:+2349132971112">+2349132971112</a></p>
+					<p>X(Twitter) <a href="https://x.com/paulakejs">paulakeJs</a></p>
+					<p>Github <a href="https://github.com/paulakejs">paulakeJs</a></p>
+					<a class="my-button form-button" href="mailto:developerpaulake@gmail.com">Start Now</a>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="row text-center">
+				<div class="small-12 medium-6 medium-offset-3 columns">
+					<p id="logo">PD</p>
+					<p id="copyright">Copyright &copy; 2023 | Paul Dike</p>
+				</div>
+			</div>
+		</footer>
+
+
+
+	</div>
+	<script src="assets/scripts/app.js" charset="utf-8"></script>
+</body>
+
 </html>
